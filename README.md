@@ -14,5 +14,5 @@ Ce projet est une application Spring Boot intégrant GraphQL pour la gestion des
 
 
 ## Demo
-![image](https://github.com/unesshaba/demo_Graphql/src/main/resources/image/2.png)!
-![image](https://github.com/unesshaba/demo_Graphql/src/main/resources/image/1.png)!
+![image](https://github.com/unesshaba/demo_Graphql/blob/main/src/main/resources/image/2.png)!
+![image](https://github.com/unesshaba/demo_Graphql/blob/main/src/main/resources/image/1.png)!
