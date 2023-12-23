@@ -1,0 +1,35 @@
+type Query{
+    vedioList:[Vedio]
+    creatorById(id:Float):Creator
+
+}
+type Vedio{
+    id:Float,
+    name:String,
+    url:String,
+    description:String,
+    datePublication:String
+    creator:Creator
+}
+type Creator{
+    id:Float,
+    name:String,
+    email:String,
+}
+type Mutation{
+    saveVideo(vedio: VedioRequest): Vedio
+    saveCreator(creator: CreatorRequest): Creator
+}
+
+input VedioRequest{
+    name: String,
+    url: String,
+    description : String,
+    datePublication: String,
+    creator: CreatorRequest!
+}
+
+input CreatorRequest{
+    name: String,
+    email: String
+}
